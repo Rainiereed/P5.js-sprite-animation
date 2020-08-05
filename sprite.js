@@ -1,7 +1,7 @@
 class Sprite {
   constructor(animation, x, y, speed) {
-    this.x = x + 150;
-    this.y = y + 130;
+    this.x = x + 170;
+    this.y = y + 165;
     this.animation = animation;
     this.w = this.animation[0].width;
     this.len = this.animation.length;
